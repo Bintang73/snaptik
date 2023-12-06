@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.7.0",
+    "readline-sync": "^1.4.10",
+    "snaptik": "^1.0.2"
+  },
+  "name": "snaptik",
+  "version": "1.0.0",
+  "description": "tools downloader vidio from tiktok",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/bintang73/snaptik"
+  },
+  "keywords": [
+    "snaptik"
+  ],
+  "author": "bintang73",
+  "license": "ISC"
+}
