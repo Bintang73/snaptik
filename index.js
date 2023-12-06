@@ -13,7 +13,6 @@ const linktt = readline.question("[+] Link Tiktok: ");
 if (linktt) {
     const sneptik = new Snaptik(linktt);
     sneptik.download().then(downloadvidio => {
-        console.log(downloadvidio)
         if (downloadvidio.status == 200) {
             try {
                 const foldername = './temp/' + downloadvidio.metadata.author_unique_id
