@@ -4,7 +4,7 @@
     "form-data": "^4.0.0",
     "node-fetch": "^2.7.0",
     "readline-sync": "^1.4.10",
-    "snaptik": "^1.0.2"
+    "snaptik": "^1.0.4"
   },
   "name": "snaptik",
   "version": "1.0.0",
